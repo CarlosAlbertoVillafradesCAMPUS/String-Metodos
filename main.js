@@ -1,11 +1,12 @@
-//.concat(str1,str2)
+//.indexOf(str, from)
 
-console.log(".concat(str1,str2)")
+console.log(".indexOf(str, from)")
 
-let oracion1 = "los mejores programadores";
-let oracion2 = "estan en campus";
-console.log(`oracion1 = ${oracion1} `)
-console.log(`oracion2 = ${oracion2} `)
+let oracion = "los mejores programadores estan en campus";
+console.log(`oracion = ${oracion} `)
 
-console.log(`oracion1.concat(' ', oracion2) = ${oracion1.concat(' ', oracion2)}`)
+
+console.log(`oracion.indexOf('mejores', 0) = ${oracion.indexOf('mejores', 0)}`);
+console.log(`oracion.indexOf('programadores', 0) = ${oracion.indexOf('programadores', 0)}`);
+console.log(`oracion.indexOf('campus', 0) = ${oracion.indexOf('campus', 0)}`);
 
