@@ -1,8 +1,9 @@
-//.toUpperCase()
+//.trim()
+
+console.log(".trim()")
 
 let oracion = "Los Mejores Programadores Estan En Campus";
-console.log(`oracion = ${oracion.toLocaleUpperCase()} `)
+console.log(`oracion = '   ${oracion}  ' `)
 
-console.log(".toUpperCase()")
+console.log(`oracion.trim() = ${oracion.trim()}`);
 
-console.log(`oracion.toUpperCase() = ${oracion.toUpperCase()}`);
