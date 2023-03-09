@@ -1,13 +1,13 @@
-//.charAt(indice)
+//.charCodeAt(index)
 
-console.log(".charAt(indice)")
+console.log(".charCodeAt(index)")
 
 let oracion = "los mejores programadores esta en campus";
 console.log(`oracion = ${oracion} `)
 
-console.log(`oracion.charAt(4) = ${oracion.charAt(4)}`)
-console.log(`oracion.charAt(5) = ${oracion.charAt(5)}`)
-console.log(`oracion.charAt(6) = ${oracion.charAt(6)}`)
-console.log(`oracion.charAt(7) = ${oracion.charAt(7)}`)
-console.log(`oracion.charAt(8) = ${oracion.charAt(8)}`)
-console.log(`oracion.charAt(9) = ${oracion.charAt(9)}`)
+console.log(`oracion.charCodeAt(4) = ${oracion.charCodeAt(4)}`)
+console.log(`oracion.charCodeAt(5) = ${oracion.charCodeAt(5)}`)
+console.log(`oracion.charCodeAt(6) = ${oracion.charCodeAt(6)}`)
+console.log(`oracion.charCodeAt(7) = ${oracion.charCodeAt(7)}`)
+console.log(`oracion.charCodeAt(8) = ${oracion.charCodeAt(8)}`)
+console.log(`oracion.charCodeAt(9) = ${oracion.charCodeAt(9)}`)
