@@ -1,12 +1,10 @@
-//.indexOf(str, from)
-
-console.log(".indexOf(str, from)")
+//.lastIndexOf(str, from)
 
 let oracion = "los mejores programadores estan en campus";
 console.log(`oracion = ${oracion} `)
 
+console.log(".lastIndexOf(str, from)")
 
-console.log(`oracion.indexOf('mejores', 0) = ${oracion.indexOf('mejores', 0)}`);
-console.log(`oracion.indexOf('programadores', 0) = ${oracion.indexOf('programadores', 0)}`);
-console.log(`oracion.indexOf('campus', 0) = ${oracion.indexOf('campus', 0)}`);
-
+console.log(`oracion.lastIndexOf('mejores') = ${oracion.lastIndexOf('mejores')}`);
+console.log(`oracion.lastIndexOf('programadores') = ${oracion.lastIndexOf('programadores')}`);
+console.log(`oracion.lastIndexOf('campus') = ${oracion.lastIndexOf('campus')}`);
