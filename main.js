@@ -1,8 +1,8 @@
-//.substring(init, end)
+//.toLowerCase()
+
+console.log(".toLowerCase()")
 
 let oracion = "Los Mejores Programadores Estan En Campus";
-console.log(`oracion = ${oracion} `)
+console.log(`oracion = ${oracion.toLocaleUpperCase()} `)
 
-console.log(".substring(init, end)")
-
-console.log(`oracion.substring(12, 25) = ${oracion.substring(12, 25)}`);
+console.log(`oracion.toLowerCase() = ${oracion.toLowerCase()}`);
