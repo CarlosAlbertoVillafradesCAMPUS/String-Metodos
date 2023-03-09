@@ -1,13 +1,11 @@
-//.match(regex)
-
-console.log(".match(regex)")
+//.replace(str, str)
 
 let oracion = "Los Mejores Programadores Estan En Campus";
-let regex = /[A-Z]/g; //expreciones regulares
-console.log(`oracion = ${oracion} `)
-console.log(`regex = ${regex} `)
+console.log(`oracion = ${oracion}`)
 
+console.log(".replace(str, str)")
 
-console.log(`oracion.match(regex) = ${oracion.match(regex)}`);
+console.log(`oracion.replace('Programadores', 'Trainers') = ${oracion.replace('Programadores', 'Trainers')}`);
+
 
 
