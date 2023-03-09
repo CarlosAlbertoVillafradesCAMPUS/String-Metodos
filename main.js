@@ -1,10 +1,13 @@
-//.lastIndexOf(str, from)
+//.match(regex)
 
-let oracion = "los mejores programadores estan en campus";
+console.log(".match(regex)")
+
+let oracion = "Los Mejores Programadores Estan En Campus";
+let regex = /[A-Z]/g; //expreciones regulares
 console.log(`oracion = ${oracion} `)
+console.log(`regex = ${regex} `)
 
-console.log(".lastIndexOf(str, from)")
 
-console.log(`oracion.lastIndexOf('mejores') = ${oracion.lastIndexOf('mejores')}`);
-console.log(`oracion.lastIndexOf('programadores') = ${oracion.lastIndexOf('programadores')}`);
-console.log(`oracion.lastIndexOf('campus') = ${oracion.lastIndexOf('campus')}`);
+console.log(`oracion.match(regex) = ${oracion.match(regex)}`);
+
+
